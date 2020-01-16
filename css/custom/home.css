@@ -1,0 +1,23 @@
+#row-1 {
+  height: 20vh;
+  border-bottom: 3px solid black; }
+
+#row-2 {
+  height: 80vh;
+  border-bottom: 3px solid black; }
+
+.right-box {
+  border-left: 3px solid black; }
+
+#switch-title {
+  position: absolute;
+  font-size: 6em;
+  z-index: 5;
+  top: 10vh; }
+
+video {
+  height: 80vh; }
+
+@media (min-width: 992px) {
+  #home-text-1 {
+    font-size: 24px; } }

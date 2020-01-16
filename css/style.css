@@ -8133,32 +8133,82 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+@media (min-width: 768px) {
+  #event-title {
+    font-size: 96px;
+    font-weight: 300; }
+  #event-description {
+    font-size: 36px; }
+  .event-part-1 {
+    font-size: 24px; }
+  #event-part-2 {
+    font-size: 24px;
+    padding-bottom: 100px; }
+  #impact {
+    font-weight: 300;
+    font-size: 72px; }
+  #impact-description {
+    font-size: 24px; }
+  .title {
+    font-size: 96px;
+    font-weight: 300; }
+  .sub-title {
+    font-size: 72px;
+    font-weight: 300; }
+  #why-1 {
+    font-size: 36px; }
+  #why-2 {
+    font-size: 18px; }
+  #when {
+    font-size: 96px;
+    font-weight: 300; }
+  .date {
+    font-size: 64px;
+    font-weight: 300; }
+  .time {
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 110px; }
+  #where {
+    font-size: 96px;
+    font-weight: 300; }
+  #where-1 {
+    font-size: 36px; }
+  #where-2 {
+    font-size: 24px;
+    padding-bottom: 180px; } }
+
+input[type=submit] {
+  font-weight: 600; }
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  width: 100%;
+  padding: 8px; }
+
+textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  width: 100%;
+  padding: 8px; }
+
 body {
   font-family: 'Open Sans', sans-serif; }
 
 p {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; }
 
 h2 {
   font-weight: 300; }
 
-* {
-  padding: 0;
-  margin: 0; }
-
-html {
-  scroll-behavior: smooth; }
-
-.tickets {
-  color: white !important;
-  background-color: black;
-  padding: 24px; }
-
-.show {
-  height: 100vh !important;
-  -webkit-transition: 0.3s ease-in;
-  -o-transition: 0.3s ease-in;
-  transition: 0.3s ease-in; }
+@media (min-width: 768px) {
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px; } }
 
 #row-1 {
   height: 20vh;
@@ -8180,74 +8230,177 @@ html {
 video {
   height: 80vh; }
 
+@media (min-width: 992px) {
+  #switch-title {
+    position: absolute;
+    font-size: 15em;
+    z-index: 5;
+    top: 5vh; }
+  #home-text-1 {
+    padding-top: 120px;
+    font-size: 24px;
+    padding-bottom: 160px; }
+  #home-text-2 {
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 120px;
+    font-size: 36px;
+    padding-bottom: 160px; } }
+
+@media (min-width: 1200px) {
+  #switch-title {
+    position: absolute;
+    font-size: 20em;
+    z-index: 5;
+    top: 5vh; } }
+
 #home-img-1 {
   background-image: url("../img/image1.png");
   background-size: cover;
   background-position: center;
-  height: 80vh; }
+  min-height: 80vh; }
 
 #home-img-2 {
   background-image: url("../img/image2.png");
   background-size: cover;
   background-position: center;
-  height: 20vh; }
+  min-height: 20vh; }
 
 #home-img-3 {
   background-image: url("../img/image3.png");
   background-size: cover;
   background-position: center;
-  height: 40vh; }
+  min-height: 70vh; }
 
 #home-img-4 {
   background-image: url("../img/image4.png");
   background-size: cover;
   background-position: center;
-  height: 80vh; }
+  min-height: 40vh; }
 
 #home-img-5 {
   background-image: url("../img/image5.png");
   background-size: cover;
   background-position: center;
-  height: 40vh; }
+  min-height: 40vh; }
 
 #home-img-6 {
   background-image: url("../img/image6.png");
   background-size: cover;
   background-position: center;
-  height: 40vh; }
+  min-height: 40vh; }
 
 #home-img-7 {
   background-image: url("../img/image7.png");
   background-size: cover;
   background-position: center;
-  height: 40vh; }
+  min-height: 40vh; }
 
 #home-img-8 {
   background-image: url("../img/image8.png");
   background-size: cover;
   background-position: center;
-  height: 40vh; }
+  min-height: 40vh; }
 
 #home-img-9 {
   background-image: url("../img/image9.png");
   background-size: cover;
   background-position: center;
-  height: 40vh; }
+  min-height: 40vh; }
 
 #home-img-10 {
   background-image: url("../img/image10.png");
   background-size: cover;
   background-position: center;
-  height: 30vh; }
+  min-height: 30vh; }
 
 #home-img-11 {
   background-image: url("../img/image11.png");
   background-size: cover;
   background-position: center;
-  height: 30vh; }
+  min-height: 30vh; }
+
+#home-img-12 {
+  background-image: url("../img/image12.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 30vh; }
+
+@media (min-width: 768px) {
+  #home-img-1 {
+    background-image: url("../img/image1.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh; }
+  #home-img-2 {
+    background-image: url("../img/image2.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 20vh; }
+  #home-img-3 {
+    background-image: url("../img/image3.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh; }
+  #home-img-4 {
+    background-image: url("../img/image4.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh; }
+  #home-img-5 {
+    background-image: url("../img/image5.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh; }
+  #home-img-6 {
+    background-image: url("../img/image6.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh; }
+  #home-img-7 {
+    background-image: url("../img/image7.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh; }
+  #home-img-8 {
+    background-image: url("../img/image8.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh; }
+  #home-img-9 {
+    background-image: url("../img/image9.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh; }
+  #home-img-10 {
+    background-image: url("../img/image10.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh; }
+  #home-img-11 {
+    background-image: url("../img/image11.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh; }
+  #home-img-12 {
+    background-image: url("../img/image12.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh; } }
 
 #hamburger {
   font-size: 1.3em; }
+
+.tickets {
+  color: white !important;
+  background-color: black;
+  padding: 24px; }
+
+.show {
+  height: 100vh !important;
+  -webkit-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in; }
 
 #menu {
   z-index: 10;
@@ -8268,3 +8421,14 @@ video {
     font-weight: 600; }
   #menu .container-fluid .row {
     min-height: 100vh; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+footer a {
+  font-weight: 300;
+  color: black; }

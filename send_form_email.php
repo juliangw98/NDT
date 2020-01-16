@@ -41,9 +41,7 @@ if(isset($_POST['email'])) {
     $error_message .= 'The First Name you entered does not appear to be valid.<br />';
   }
 
-  if(!preg_match($string_exp,$last_name)) {
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
-  }
+
 
   if(strlen($comments) < 2) {
     $error_message .= 'The Comments you entered do not appear to be valid.<br />';
@@ -90,9 +88,30 @@ $headers = 'From: '.$email_from."\r\n".
 
 
         <title>SWITCH</title>
+        <style>
+        .content {
+          text-transform: uppercase;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: black;
+            width: 100%;
+            height: 100vh;
+            padding: 20px;
+            align-items: center;
+
+
+        }
+        </style>
     </head>
 
-
+    <div class="content">
+        <h2>Switch</h2>
+        <h1>Thanks for your message!</h1>
+        <p>We will respond to you soon</p>
+        <a href="index.html"> Back to home</a>
+    </div>
 
 
 
