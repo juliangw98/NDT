@@ -1,62 +1,124 @@
-
-
 #row-1 {
-  height: 20vh;
-  border-bottom: 3px solid black;
+	height: 20vh;
+	border-bottom: 3px solid black;
 }
 
 #row-2 {
-  height: 80vh;
-  border-bottom: 3px solid black;
+	height: 80vh;
+	border-bottom: 3px solid black;
 }
 
 .right-box {
-  border-left: 3px solid black;
+	border-left: 3px solid black;
 }
 
 #switch-title {
-  position: absolute;
-  font-size: 6em;
-  z-index: 5;
-  top: 10vh;
+	// position: absolute;
+	font-size: 6em;
+	z-index: 5;
+	// top: 10vh;
+
+	span {
+		height: auto;
+		&:hover {
+			transform: translateY(-30px);
+			transition: 0.3s ease;
+		}
+	}
 }
 
 video {
-  height: 80vh;
+	height: 80vh;
+}
+
+#sponsor {
+	margin-top: 15vh;
+	margin-bottom: 15vh !important;
+	img {
+		height: 100px;
+	}
 }
 @media (min-width: 576px) {
-
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+	#event-dates {
+		font-size: 96px;
+		font-weight: 300;
+	}
+
+	#event-data {
+		h2 {
+			font-size: 72px;
+			font-weight: 300;
+		}
+
+		h3 {
+			font-size: 48px;
+			font-weight: 300;
+		}
+
+		p {
+			font-size: 18px;
+		}
+	}
+
+	#sponsor {
+		h2 {
+			font-size: 64px;
+			margin-bottom: 10vh !important;
+		}
+		img {
+			height: 150px;
+		}
+	}
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  #switch-title {
-    position: absolute;
-    font-size: 15em;
-    z-index: 5;
-    top: 5vh;
-  }
-  #home-text-1 {
-    padding-top: 120px;
-    font-size: 24px;
-    padding-bottom: 160px;
-  }
-  #home-text-2 {
-    font-style: italic;
-    font-weight: 300;
-    padding-top: 120px;
-    font-size: 36px;
-    padding-bottom: 160px;
-  }
+	#switch-title {
+		position: absolute;
+		font-size: 15em;
+		z-index: 5;
+		top: 5vh;
+	}
+
+	#home-text-1 {
+		padding-top: 120px;
+		font-size: 24px;
+		padding-bottom: 160px;
+	}
+
+	#home-text-2 {
+		font-style: italic;
+		font-weight: 300;
+		padding-top: 120px;
+		font-size: 36px;
+		padding-bottom: 160px;
+	}
+
+	#sponsor {
+		img {
+			height: 200px;
+		}
+	}
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  #switch-title {
-    position: absolute;
-    font-size: 20em;
-    z-index: 5;
-    top: 5vh;
-  }
+	#switch-title {
+		position: absolute;
+		display: flex;
+		font-size: 20em;
+		z-index: 5;
+		top: 5vh;
+		span {
+			line-height: -10px;
+			transition: 0.3s ease;
+
+			&:hover {
+				line-height: -5px;
+				color: wheat;
+				transition: 0.3s ease;
+			}
+		}
+	}
 }

@@ -1,0 +1,108 @@
+.creative-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.creative {
+	height: 50vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-size: cover;
+	color: white !important;
+	font-weight: 600 !important;
+	text-transform: uppercase;
+	min-width: 30%;
+	transition: 0.3s ease;
+
+	&:hover {
+		transform: translateY(-30px);
+		transition: 0.3s ease;
+	}
+}
+
+.stef {
+	background-image: url('../img/stef_1.png');
+
+}
+
+.mikaela {
+	background-image: url('../img/image17.png');
+}
+
+.kyle {
+	background-image: url('../img/image18.png');
+	color: black !important;
+}
+
+.charlie {
+	background-image: url('../img/image19.png');
+}
+
+.boston {
+	background-image: url('../img/image20.png');
+}
+
+.in-active {
+	opacity: 0.3;
+
+	&:hover {
+		transform: translateY(0px);
+		transition: 0.3s ease;
+	}
+}
+
+.creative_photo {
+	height: 70vh;
+}
+
+// Foto's Stef
+
+#stef_1 {
+	background-image: url('../img/stef_1.png');
+}
+
+#stef_2 {
+	background-image: url('../img/stef_2.png');
+}
+
+#stef_3 {
+	background-image: url('../img/stef_3.png');
+}
+
+#stef_4 {
+	background-image: url('../img/stef_4.png');
+}
+
+#stef_5 {
+	background-image: url('../img/stef_5.png');
+}
+
+#stef_6 {
+	background-image: url('../img/stef_6.png');
+}
+
+#stef_7 {
+	background-image: url('../img/stef_7.png');
+}
+
+#stef_8 {
+	background-image: url('../img/stef_8.png');
+}
+
+#stef_9 {
+	background-image: url('../img/stef_9.png');
+}
+
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-up(md) {}
+
+@include media-breakpoint-up(lg) {
+	.creative-container {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+@include media-breakpoint-up(xl) {}
